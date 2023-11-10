@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Velo Slider - with Borders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:400,700'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600'>
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <!-- partial:index.partial.html -->
+  <main role="main">
+
+    <!-- Slider -->
+    <section class="velo-slides" data-velo-slider="on" data-velo-theme="light">
+
+
+      <!-- Slide -->
+      <section class="velo-slide">
+        <nav class="velo-slides-nav">
+          <ul class="velo-slides-nav__list">
+            <li>
+              <a class="js-velo-slides-prev velo-slides-nav__prev inactive" href="#0"><i class="icon-up-arrow"></i></a>
+            </li>
+            <li>
+              <a class="js-velo-slides-next velo-slides-nav__next" href="#0"><i class="icon-down-arrow"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Pretitle Hint -->
+        <span class="velo-slider__hint"><span><span></span></span></span> <!-- Slide BG -->
+        <div class="velo-slide__bg">
+          <div class="rela-block top-section grad-back" id="topSection">
+            <section class="move" style="position: relative; margin: 0px;">
+              <canvas id="canvas" style="width: 100%; height: 100%;" tabindex="0"></canvas>
+              <div class="trigger">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <!-- <span class="text">Scroll down</span> -->
+              </div>
+            </section>
+            <script src="./move.js"></script>
+          </div>
+        </div>
+
+        <!-- Header -->
+        <header class="velo-slide__header">
+          <h3 class="velo-slide__title"><span class="oh"><span>Welcome Student.</span></span><span
+              class="oh"><span></span></span></h3>
+          <p class="velo-slide__text"><span class="oh"><span>Take a scroll through our page and find what course interests you most.</span></span></p>
+          <!-- <span class="velo-slide__btn"><a class="btn-draw btn--white" href="#"><span class="btn-draw__text"><span>Watch
+                  video</span></span></a></span> -->
+        </header>
+      </section>
+
+      <!-- Slide -->
+      <section class="velo-slide">
+        <!-- Pretitle Hint -->
+        <span class="velo-slider__hint"><span><span></span></span></span>
+        <!-- Slide BG -->
+        <div class="velo-slide__bg">
+          <!-- Borders -->
+          <span class="border"><span></span></span> <!-- Img -->
+          <figure class="velo-slide__figures" style="background-image: url(Clients.jpg)"></figure>
+        </div>
+
+        <!-- Header -->
+        <header class="velo-slide__header">
+          <h3 class="velo-slide__title"><span class="oh"><span>Our</span></span><span class="oh"><span>Main courses</span></span></h3>
+          <p class="velo-slide__text"><span class="oh"><span.</span></span></p>
+          <span class="velo-slide__btn"><a class="btn-draw btn--white" href="#"><span class="btn-draw__text"><span>View
+                  Work</span></span></a></span>
+
+        </header>
+      </section>
+
+      <section class="velo-slide">
+        <!-- Pretitle Hint -->
+        <span class="velo-slider__hint"><span><span></span></span></span>
+        <!-- Slide BG -->
+        <div class="velo-slide__bg">
+          <!-- Borders -->
+          <span class="border"><span></span></span> <!-- Img -->
+          <!-- <figure class="velo-slide__figures" style="background-image: url(Clients.jpg)"></figure> -->
+        </div>
+
+        <!-- Header -->
+        <header class="velo-slide__header">
+          <h3 class="velo-slide__title"><span class="oh"><span>Fill out the registration </span></span><span class="oh"><span>form with your details.</span></span></h3>
+          <p class="velo-slide__text"><span class="oh"><span>All information provided will be added to our database to find suitable learning opportunities with our Partners/Clients.</span></span></p>
+          <span class="velo-slide__btn"><a class="btn-draw btn--white" href="#"><span class="register js-velo-slides-next"><span>Register</span></span></a></span>
+
+        </header><!-- Header -->
+      </section>
+
+
+      <!-- Slide - with Video -->
+      <section class="velo-slide">
+
+        <!-- Pretitle Hint -->
+        <span class="velo-slider__hint"><span><span>Register</span></span></span>
+        <!-- Slide BG -->
+        <div class="velo-slide__bg">
+          <!-- Borders -->
+          <span class="border"><span></span></span> <!-- Img -->
+          <figure class="velo-slide__figure" style="background-image: url()"></figure>
+            <div id="progress"></div>
+
+            <div class="center">
+              <div id="register">
+
+                <i id="progressButton" class="ion-android-arrow-forward next"></i>
+
+                <div id="inputContainer">
+                  <input id="inputField" required autofocus />
+                  <label id="inputLabel"></label>
+                  <div id="inputProgress"></div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+       
+      </section>
+
+
+      <!-- Slides Nav -->
+
+    </section>
+  </main>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.0/velocity.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.0/velocity.ui.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
