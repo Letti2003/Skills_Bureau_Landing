@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Skills Bureau</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css'>
+  <script src="modetog.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+
+<div class="video-container">
+  <video id="lightVideo" autoplay loop muted>
+      <source src="bg_light_load.mov" type="video/mp4">
+  </video>
+  <video id="lightload" autoplay muted>
+      <source src="bg_light_load2.mp4" type="video/mp4">
+  </video>
+  <video id="darkload" class="darkload" autoplay loop muted>
+      <source src="bg_dark_load_hor.mp4" type="video/mp4">
+  </video>
+  <video id="darkVideo" class="darkVideo">
+      <source src="bg_dark_loop_hor.mp4" type="video/mp4">
+  </video>
+</div>
+<body>
+<!-- partial:index.partial.html -->
+<div class='cursor'>
+  <div class='cursor_point'></div>
+  <div class='cursor_outer'></div>
+</div>
+<div class='portfolio'>
+  <div class='portfolio_home'>
+    <div style='position: relative; align-self: center;'>
+      <div class='portfolio_home__header'>
+        <div class='hamburger trigger'>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class='portfolio_home__title'>
+        <div class='page_portfolio'>
+          <div class='portfolio_home__header'>
+            <div class='logoMain'>
+              <img src='SB_2colour transparent.png'>
+            </div>
+            <!-- <div class='number white'> <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
+            </div>
+          <div class='portfolio_home__work'>
+            <div class='portfolio_home__header work'>
+              <div class='back'>
+                <img class='trigger' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/arrowDown.png'>
+              </div>
+              <div class='logoMain'>
+                <img src='SB_2colour transparent.png'>
+              </div>
+              <!-- <div class='number white'><i class="bi bi-brightness-high-fill" id="toggleDark"></i></div> -->
+            </div>
+            <div class='slideClone'>
+              <link rel="stylesheet" href="./card_style.css">
+              <div class='image'>
+                <main class="page-content">
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Register As A Student</h2>
+                      <p class="copy">Register as a learner with Skills Bureau. Ready to embark on a journey of learning and skill development with Skills Bureau?</p>
+                      <a class="btn" href="forms/dist/index.html">View Courses</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Client</h2>
+                      <!-- <p class="copy">Begin your journey to success with Skills Bureau. We offer transformative partnerships, strategic guidance, and tailored solutions for talent optimization, compliance, and growth in the South African business landscape. Let's connect and work together to drive your organization's success. Your mission is our priority.</p> -->
+                      <button class="btn" onclick="window.location.href='forms/client_fin/index.html'">Register as a Client</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Partner With Us</h2>
+                      <p class="copy">Collaborate with us for BEE compliance, skills development, and more. Explore a Partnership with Us - Avoid the Pitfalls</p>
+                      <button class="btn" onclick="window.location.href='forms/partner/index.html'">Connect as a Partner</button>
+                    </div>
+                  </div>
+                  <!-- Add more card sections if needed -->
+                </main>
+              </div>
+            </div>
+            <div class='slideClone'>
+              <link rel="stylesheet" href="./card_style.css">
+              <div class='image'>
+                <main class="page-content">
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Register As A Student</h2>
+                      <p class="copy">Register as a learner with Skills Bureau. Ready to embark on a journey of learning and skill development with Skills Bureau?</p>
+                      <a class="btn" href="forms/dist/index.html">View Courses</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Client</h2>
+                      <!-- <p class="copy">Begin your journey to success with Skills Bureau. We offer transformative partnerships, strategic guidance, and tailored solutions for talent optimization, compliance, and growth in the South African business landscape. Let's connect and work together to drive your organization's success. Your mission is our priority.</p> -->
+                      <button class="btn" onclick="window.location.href='forms/client_fin/index.html'">Register as a Client</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Partner With Us</h2>
+                      <p class="copy">Collaborate with us for BEE compliance, skills development, and more. Explore a Partnership with Us - Avoid the Pitfalls</p>
+                      <button class="btn" onclick="window.location.href='forms/partner/index.html'">Connect as a Partner</button>
+                    </div>
+                  </div>
+                  <!-- Add more card sections if needed -->
+                </main>
+              </div>
+            </div>
+            <div class='slideClone'>
+              <link rel="stylesheet" href="./card_style.css">
+              <div class='image'>
+                <main class="page-content">
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Register As A Student</h2>
+                      <p class="copy">Register as a learner with Skills Bureau. Ready to embark on a journey of learning and skill development with Skills Bureau?</p>
+                      <a class="btn" href="forms/dist/index.html">View Courses</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Client</h2>
+                      <!-- <p class="copy">Begin your journey to success with Skills Bureau. We offer transformative partnerships, strategic guidance, and tailored solutions for talent optimization, compliance, and growth in the South African business landscape. Let's connect and work together to drive your organization's success. Your mission is our priority.</p> -->
+                      <button class="btn" onclick="window.location.href='forms/client_fin/index.html'">Register as a Client</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Partner With Us</h2>
+                      <p class="copy">Collaborate with us for BEE compliance, skills development, and more. Explore a Partnership with Us - Avoid the Pitfalls</p>
+                      <button class="btn" onclick="window.location.href='forms/partner/index.html'">Connect as a Partner</button>
+                    </div>
+                  </div>
+                  <!-- Add more card sections if needed -->
+                </main>
+              </div>
+            </div>
+            <div class='slideClone'>
+              <link rel="stylesheet" href="./card_style.css">
+              <div class='image'>
+                <main class="page-content">
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Register As A Student</h2>
+                      <p class="copy">Register as a learner with Skills Bureau. Ready to embark on a journey of learning and skill development with Skills Bureau?</p>
+                      <a class="btn" href="forms/dist/index.html">View Courses</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Client</h2>
+                      <!-- <p class="copy">Begin your journey to success with Skills Bureau. We offer transformative partnerships, strategic guidance, and tailored solutions for talent optimization, compliance, and growth in the South African business landscape. Let's connect and work together to drive your organization's success. Your mission is our priority.</p> -->
+                      <button class="btn" onclick="window.location.href='forms/client_fin/index.html'">Register as a Client</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Partner With Us</h2>
+                      <p class="copy">Collaborate with us for BEE compliance, skills development, and more. Explore a Partnership with Us - Avoid the Pitfalls</p>
+                      <button class="btn" onclick="window.location.href='forms/partner/index.html'">Connect as a Partner</button>
+                    </div>
+                  </div>
+                  <!-- Add more card sections if needed -->
+                </main>
+              </div>
+            </div>
+            
+            <div class='slideClone'>
+              <link rel="stylesheet" href="./card_style.css">
+              <div class='image'>
+                <main class="page-content">
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Register As A Student</h2>
+                      <p class="copy">Register as a learner with Skills Bureau. Ready to embark on a journey of learning and skill development with Skills Bureau?</p>
+                      <a class="btn" href="forms/dist/index.html">View Courses</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Client</h2>
+                      <!-- <p class="copy">Begin your journey to success with Skills Bureau. We offer transformative partnerships, strategic guidance, and tailored solutions for talent optimization, compliance, and growth in the South African business landscape. Let's connect and work together to drive your organization's success. Your mission is our priority.</p> -->
+                      <button class="btn" onclick="window.location.href='forms/client_fin/index.html'">Register as a Client</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-content">
+                      <h2 class="card-title">Partner With Us</h2>
+                      <p class="copy">Collaborate with us for BEE compliance, skills development, and more. Explore a Partnership with Us - Avoid the Pitfalls</p>
+                      <button class="btn" onclick="window.location.href='forms/partner/index.html'">Connect as a Partner</button>
+                    </div>
+                  </div>
+                  <!-- Add more card sections if needed -->
+                </main>
+              </div>
+            </div>
+            
+          </div>
+          <div class='portfolio_home__slider'>
+            <div class='slider_inner'>
+              <div class='slider_inner__slide'>
+                <div class='image'>
+                  <a href="Why us/dist/index.html">
+                    <img draggable='false' class="img" src='Why Us.png' alt='Why Us'>
+                  </a>
+                </div>
+              </div>
+              <div class='slider_inner__slide'>
+                <div class='image'>
+                  <a href="Solutions/dist/index.html">
+                    <img draggable='false' class="img" src='solutions.png' alt='Solutions'>
+                  </a>
+                </div>
+              </div>
+              <div class='slider_inner__slide'>
+                <div class='image'>
+                  <a href="Tools_main/index.html">
+                    <img class="img" draggable='false' src='Tools.png' alt='Tools'>
+                  </a>
+                </div>
+              </div>
+              <div class='slider_inner__slide'>
+                <div class='image'>
+                  
+                    <img draggable='false' class="img" src='Connect.png' alt='Connect'>
+                  
+                </div>
+              </div>
+              <div class='slider_inner__slide'>
+                <div class='image'>
+                  <a href="Blog/dist/">
+                    <img draggable='false' class="img" src='Blog.png' alt='Blog'>
+                  </a>
+                </div>
+              </div>
+              <div class='slider_inner__slide'>
+                <div class='image'>
+                  <a href="Contact/dist/index.html">
+                    <img draggable='false' class="img" src='Contact.png' alt='Contact'>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <hr>
+      <!-- <h1>
+        We are an Independent
+        <span>Creative Advertising</span>
+        &amp;
+        <span>Branding Agency</span>
+      </h1> -->
+      <div class="trigger">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <!-- <span class="text">Scroll down</span> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.0/velocity.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.3.0/velocity.ui.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
