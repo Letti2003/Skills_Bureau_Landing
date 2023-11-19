@@ -123,7 +123,7 @@ body .portfolio .slideClone .image img {
   background-color: #001F37;
   position: relative;
   left: 10px;
-  /* z-index: -1; */
+  z-index: 10;
   top: 0;
   transition: all 0.8s 0.1s cubic-bezier(0.79, -0.01, 0, 0.99);
   width: 100%;
@@ -136,7 +136,7 @@ body .portfolio .slideClone .image .overlay {
   width: 100%;
   height: 100%;
   /* background: #001F37; */
-  z-index: -1;
+  z-index: 10;
   /* opacity: 0; */
   transition: opacity 0.1s, transform 0.8s 0.1s cubic-bezier(0.79, -0.01, 0, 0.99);
 }
@@ -292,7 +292,7 @@ body .portfolio_home__slider .slider_inner__slide .image img {
   border-radius: 50%;
 
   /* visibility: hidden; */
-  z-index: -1;
+  z-index: 10;
   top: 0;
   /* height: 100%; */
 }
@@ -306,7 +306,7 @@ body .portfolio_home__slider .slider_inner__slide .image img {
   border-radius: 50%;
 
   /* visibility: hidden; */
-  z-index: -1;
+  z-index: 10;
   top: 0;
   /* height: 100%; */
 }
