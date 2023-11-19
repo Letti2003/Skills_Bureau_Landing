@@ -113,7 +113,7 @@ body .portfolio .slideClone .f {
 }
 body .portfolio .slideClone .image {
   position: relative;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   left: -120px;
   /* padding: 94px 94px; */
   height: 380px;
@@ -283,6 +283,20 @@ body .portfolio_home__slider .slider_inner__slide .image {
   height: 580px;
   transform-style: preserve-3d;
 }
+body .portfolio_home__slider .slider_inner__slide .image img {
+  position: absolute;
+  top: -10px;
+  left: 45px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+
+  /* visibility: hidden; */
+  z-index: -1;
+  top: 0;
+  /* height: 100%; */
+}
+
 body .portfolio_home__slider .slider_inner__slide .image img {
   position: absolute;
   top: -10px;
@@ -903,12 +917,12 @@ i{
   
 }
 
-@media (max-width: 800px) {
+@media (min-width: 200px) and (max-width:1000px){
   
   .portfolio_home__slider .slider_inner {
-    top: 20em; /* Adjust the width for even smaller screens */
+    top: 10em; /* Adjust the width for even smaller screens */
   }
-/* 
+
   body .portfolio_home__slider .slider_inner__slide {
     width: 700px;
     height: 1050px;
@@ -919,6 +933,7 @@ i{
     transform-style: preserve-3d;
     transform: scale(0);
   }
+  /* 
   body .portfolio_home__slider .slider_inner__slide .image .overlay {
     position:absolute;
     top: 250px;
@@ -932,14 +947,15 @@ i{
     opacity: 0;
     transition: opacity 0.1s, transform 0.8s 0.7s cubic-bezier(0.79, -0.01, 0, 0.99);
   }*/
-  body .portfolio_home__slider .slider_inner__slide .image {
+  body .portfolio_home__slider .slider_inner__slide .image .img {
     color: #c68119;
     position: absolute;
     font-weight: 700;
-    /* top: 450px; */
+    top: 300px;
     font-size: 64px;
     width: 700px;
-    left: 90px;
+    height: 700px;
+    left: 9px;
     transition: all 0.8s 0.16s cubic-bezier(0.79, -0.01, 0, 0.99);
     /* transform-style: preserve-3d; */
     /* opacity: 0; */
@@ -1024,13 +1040,100 @@ i{
   } */
 }
 
+@media (min-width: 700px) and (max-width:1000px){
+   
+  .portfolio_home__slider .slider_inner {
+    top: 10em; /* Adjust the width for even smaller screens */
+  }
 
-
-@media screen and (min-width: 2000px) {
-  body {
-    zoom: 175%; /* Adjust the zoom level as needed */
-    /* transform: scale(0.5); An alternative way to achieve zooming */
-    /* transform-origin: top left; Set the origin of the transformation */
+  body .portfolio_home__slider .slider_inner__slide {
+    width: 700px;
+    height: 1050px;
+    align-content: center;
+    float: left;
+    margin-right: 90px;
+    transition: all 0.5s;
+    transform-style: preserve-3d;
+    transform: scale(0);
+  }
+  /* 
+  body .portfolio_home__slider .slider_inner__slide .image .overlay {
+    position:absolute;
+    top: 250px;
+    align-items: center;
+    left: -50px;
+    width: 700px;
+    height: 700px;
+    background: #370000;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.1s, transform 0.8s 0.7s cubic-bezier(0.79, -0.01, 0, 0.99);
+  }*/
+  body .portfolio_home__slider .slider_inner__slide .image .img {
+    color: #c68119;
+    position: absolute;
+    font-weight: 700;
+    top: 0px;
+    font-size: 64px;
+    width: 500px;
+    height: 500px;
+    left: 9px;
+    transition: all 0.8s 0.16s cubic-bezier(0.79, -0.01, 0, 0.99);
+    /* transform-style: preserve-3d; */
+    /* opacity: 0; */
   }
 }
+
+@media (min-width: 700px) and (max-width:1000px){
+   
+  .portfolio_home__slider .slider_inner {
+    top: em; /* Adjust the width for even smaller screens */
+  }
+
+  body .portfolio_home__title .page_portfolio {
+    background: #fffffef4;}
+
+  body .portfolio_home__slider .slider_inner__slide {
+    width: 700px;
+    height: 1050px;
+    align-content: center;
+    float: left;
+    margin-right: 90px;
+    transition: all 0.5s;
+    transform-style: preserve-3d;
+    transform: scale(0);
+  }
+  /* 
+  body .portfolio_home__slider .slider_inner__slide .image .overlay {
+    position:absolute;
+    top: 250px;
+    align-items: center;
+    left: -50px;
+    width: 700px;
+    height: 700px;
+    background: #370000;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.1s, transform 0.8s 0.7s cubic-bezier(0.79, -0.01, 0, 0.99);
+  }*/
+  body .portfolio_home__slider .slider_inner__slide .image .img {
+    color: #c68119;
+    position: absolute;
+    font-weight: 700;
+    top: 0px;
+    font-size: 64px;
+    width: 600px;
+    height: 600px;
+    left: 9px;
+    transition: all 0.8s 0.16s cubic-bezier(0.79, -0.01, 0, 0.99);
+    /* transform-style: preserve-3d; */
+    /* opacity: 0; */
+  }
+}
+
+
+
+/* mobiel view */
 
